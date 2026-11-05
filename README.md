@@ -1,12 +1,10 @@
 # げんつき、ちょっと待った
 
-原付の調子がおかしい時に、原因は当てずに「走っていいかの目安」と「店に見せるメモ」を返す、Claude 用の文章ファイル一式。
-
-これは、AI が分からない所をもっともらしく埋める問題を、現実の相談の場面で止める構造の一例です。場面は原付通勤にしました。
+AI が分からない所をもっともらしく埋める癖を、原付の不調の相談という現実の場面で捕まえて止めた、Claude 用の文章ファイル一式。原因は当てずに「走っていいかの目安」と「店に見せるメモ」を返します。
 
 安全装置は 2 つ。分からない所を嘘で埋めない（本人が言っていない時刻や場面を足さない・原因を当てない）。乗ったらいけない時は止める（迷う時は「乗る前に店に電話」）。
 
-作ったのは Claude。判断の基準を口で話して作らせたのは僕——原付で通勤する会社員、副業で配達、非エンジニア、整備士ではありません。毎日 AI を使っていて一番困ってきたのは、分からない所をもっともらしく埋められることでした。それを、原付の相談という現実の場面で、できる限り止める構造にしたのがこれです。
+作ったのは Claude。判断の基準を口で話して作らせたのは僕——原付通勤 10 年、副業で配達、車の販売店で営業を 10 年（客から電話で聞いた不調を、フロントや整備の現場と話して詰めてきた）、非エンジニア、整備士ではありません。症状がどれだけ危ないかの判断は AI の一般的な知識に任せ、僕が決めたのは「何を聞くか・何を書かないか」です。毎日 AI を使っていて一番困ってきたのは、分からない所をもっともらしく埋められることでした。それを、原付の相談という現実の場面で、できる限り止める構造にしたのがこれです。
 
 通勤の足が止まると困る人ほど、調子がおかしくても無理に乗ってしまいます。整備の知識が無いと「このまま走っていいのか、止めた方がいいのか」が分かりません。聞ける人がいなければ、そのまま乗って帰ります。
 
@@ -193,4 +191,4 @@ AI は、分からない所をもっともらしく埋めます。相談の場�
 
 ## English (5 lines)
 
-A set of Markdown files for Claude (Claude Code or a claude.ai Project) that helps a person with no mechanical knowledge when their moped (scooter) acts up. Without guessing the cause, it first returns a traffic-light answer — red: don't ride, call the shop now / yellow: call the shop before riding and ask whether to ride / green: no rush — plus one-step checks for common user mistakes (kill switch, neutral gear), who to call in order, and one sentence to say on the phone. After three calm questions it adds a symptom note for the shop, with each line tagged by its source, and never names parts or prices. The rule for the colors is one question: can a novice rule out injury and getting stranded if they keep riding? Built and tested by a non-engineer commuter during Built with Claude: Japan 2026.
+Markdown files for Claude (Claude Code or a claude.ai Project) that catch and stop one habit of AI: filling in what the person never said. In testing, the model added times and scenes the rider had not mentioned (e.g. "since a while ago" became "since a while ago (around evening)"); five such fills were caught and each was stopped with one written rule. The setting is a moped that acts up for someone with no mechanical knowledge: the files return a traffic-light answer (red: don't ride, call the shop now / yellow: call before riding / green: no rush) and one sentence to say on the phone, then, after three questions, a note for the shop where every line is tagged as the rider's own words or AI knowledge. Causes, parts and prices are never written. How severe a symptom is was left to the model's general knowledge; what to ask and what never to write came from the author: a non-engineer, 10 years commuting by moped and 10 years in car dealership sales taking customers' calls about problems. Adding rules until they reached about 16,000 characters made new rules stop working; cutting back to about 5,000 restored them. 13 color tests and a paper check are included (tests/). Built during Built with Claude: Japan 2026.
