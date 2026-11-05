@@ -68,3 +68,4 @@
 - 11/5 夜 無料プランの Project: claude.com/pricing 比較表＝Free「Up to 5」・ヘルプ記事「Projects are available to all users, including those with free Claude accounts」（Mac が 2 枚とも開いた）。README 使い方を「入口 2 つ（Claude Code／claude.ai Project）」に。動画の本線は Chrome の claude.ai Project で録る（CEO 11/5 夜・TJ 提案）。
 
 - 11/5 夜 TJ（スマホ／Chrome で実走）: 「分からん」が並ぶと紙が薄くて参考にならん→ 問いは増やさず、車両欄に分からんが 2 つ以上なら紙の先頭に「店に行く前に撮る 2 枚」を置く線を芯に足した。07 の実例はこの前の回（11/6 に取り直して確かめる）。
+- 11/5 夜 TJ「この紙はバイク屋が見ても参考にならん」→ 既定の層の紙を店の受付が聞く順（車種→いつから→どんな時→どんな音がどのあたりから・TJ 受付 10 年）に組み直し・候補／考え／日数／メンテは段がタイヤ以上の人だけ。型と芯を直した。07 を取り直す。
